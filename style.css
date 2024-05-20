@@ -1,0 +1,111 @@
+body {
+  background-color: #EEEEEE;
+  font-family: Montserrat, sans-serif;
+  line-height: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 50px;
+  margin-top: 35px;
+  font-size: 15px;
+}
+h1{
+  color: #053B50;
+  font-size: 40px;
+  font-family: "Radio Canada Big", sans-serif;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #053B50;
+  font-family: "Radio Canada Big", sans-serif;
+  font-size: 30px;
+}
+
+#lewagon {
+  text-decoration: none;
+  padding: 20px;
+  color: #053B50;
+  border-radius: 10px;
+  font-size: bold;
+  background-color: #B5C0D0;
+  border: 2px solid #053B50;
+}
+
+#lewagon:hover {
+  background-color: #B5C0D0;
+  background-color: white;
+  color: #053B50;
+  transition: 0.3s
+}
+
+ i {
+  color: #053B50;
+  list-style-type: none;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding-bottom: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 45px;
+}
+
+.passions-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.passions-list li {
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .img-circle {
+    width: 200px;
+  }
+
+  .list-inline li {
+    font-size: 30px;
+  }
+}
